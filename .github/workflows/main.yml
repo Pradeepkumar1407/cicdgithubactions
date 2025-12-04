@@ -67,4 +67,3 @@ jobs:
             docker run -d -p 3000:3000 ${{ secrets.DOCKERHUB_USERNAME }}/multi-env:${GITHUB_SHA}
           "
 
-
